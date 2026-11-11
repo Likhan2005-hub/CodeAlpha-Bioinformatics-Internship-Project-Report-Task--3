@@ -1,0 +1,74 @@
+# CodeAlpha Bioinformatics Internship | Project Report
+
+| Task | Prepared report |
+| :--- | :--- |
+| **Intern name** | Srija Dutta Mondal[span_0](start_span)[span_0](end_span) |
+| **College / Department** | Adamas University, Kolkata |
+
+**Task requirement:** Select a UniProt protein, use SWISS-MODEL or AlphaFold DB, visualize its 3D structure in PyMOL/Chimera, and submit images plus a short structural report[span_1](start_span)[span_1](end_span).
+
+> **Note:** Prepared as a structured project report. Before submitting, add your own screenshots from the live tools where indicated and verify any live-run output. No tool screenshots or numerical results are invented in this document[span_2](start_span)[span_2](end_span).
+
+---
+
+## 1. Aim
+To examine the predicted three-dimensional structure of human hemoglobin subunit beta and relate the predicted fold to its biological role[span_3](start_span)[span_3](end_span).
+
+---
+
+## 2. Protein selected
+
+| Feature | Information |
+| :--- | :--- |
+| **Protein** | Hemoglobin subunit beta (HBB/beta-globin)[span_4](start_span)[span_4](end_span) |
+| **Organism** | *Homo sapiens*[span_5](start_span)[span_5](end_span) |
+| **UniProt accession** | [P68871](https://www.uniprot.org/uniprot/P68871)[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span) |
+| **Sequence length** | 147 residues[span_8](start_span)[span_8](end_span) |
+| **Structure source** | AlphaFold Protein Structure Database[span_9](start_span)[span_9](end_span) |
+| **Model page** | [AlphaFold DB P68871](https://alphafold.ebi.ac.uk/entry/P68871)[span_10](start_span)[span_10](end_span) |
+| **Cross-reference** | [RCSB computed model AF_AFP68871F1](https://www.rcsb.org/structure/AF_AFP68871F1)[span_11](start_span)[span_11](end_span) |
+
+---
+
+## 3. Method
+1. Open the AlphaFold DB entry for P68871[span_12](start_span)[span_12](end_span).
+2. Review the 3D model and confidence information[span_13](start_span)[span_13](end_span).
+3. Download the PDB/mmCIF structure file from the entry[span_14](start_span)[span_14](end_span).
+4. Open the file in PyMOL or UCSF Chimera/ChimeraX[span_15](start_span)[span_15](end_span).
+5. Display the protein as a cartoon/ribbon, color by secondary structure or confidence, and rotate the model to capture clear views[span_16](start_span)[span_16](end_span).
+6. Save two or three screenshots and note which visualization software was used[span_17](start_span)[span_17](end_span).
+
+---
+
+## 4. Structural observations
+Hemoglobin beta is a globin-family protein with a compact globin fold dominated by alpha-helical secondary structure[span_18](start_span)[span_18](end_span). In native adult hemoglobin, beta-globin associates with two alpha-globin chains to form an alpha2beta2 tetramer[span_19](start_span)[span_19](end_span). The beta chain participates in oxygen transport as part of hemoglobin; its biological context includes a heme cofactor, but a protein-only predicted model should not automatically be interpreted as a complete experimentally assembled hemoglobin complex[span_20](start_span)[span_20](end_span).
+
+---
+
+## 5. Model confidence and limitations
+The RCSB record for the computed AlphaFold model AF_AFP68871F1 reports a global pLDDT confidence score of 97.18 and 147 modeled residues[span_21](start_span)[span_21](end_span). PLDDT is a per-residue estimate of local prediction confidence, not an experimental resolution and not proof that every biological interaction is represented[span_22](start_span)[span_22](end_span). The model page notes that the computed model does not have experimental data verifying its accuracy[span_23](start_span)[span_23](end_span). The structure should therefore be described as a prediction, not as a newly solved experimental structure[span_24](start_span)[span_24](end_span).
+
+> *Insert your screenshots here*[span_25](start_span)[span_25](end_span)
+
+---
+
+## 6. Figure panel
+
+| Figure | Screenshot to insert | Caption suggestion |
+| :--- | :--- | :--- |
+| **Figure 1**[span_26](start_span)[span_26](end_span) | *Overall cartoon/ribbon view*[span_27](start_span)[span_27](end_span) | Predicted 3D fold of human hemoglobin subunit beta (UniProt P68871)[span_28](start_span)[span_28](end_span). |
+| **Figure 2**[span_29](start_span)[span_29](end_span) | *Rotated view or secondary-structure coloring*[span_30](start_span)[span_30](end_span) | Alternate view highlighting the predominantly helical globin fold[span_31](start_span)[span_31](end_span). |
+| **Figure 3 (optional)**[span_32](start_span)[span_32](end_span) | *Confidence coloring/pLDDT view*[span_33](start_span)[span_33](end_span) | Model confidence visualization; confidence is predictive, not experimental validation[span_34](start_span)[span_34](end_span). |
+
+---
+
+## 7. Conclusion
+The AlphaFold model provides a useful structural hypothesis for human beta-globin[span_35](start_span)[span_35](end_span). Its compact globin fold is consistent with the known role of the protein as one chain of hemoglobin[span_36](start_span)[span_36](end_span)[span_37](start_span)[span_37](end_span). The model's high reported global confidence supports using it for educational visualization, while biological assembly, ligand placement and experimental validation should be considered separately[span_38](start_span)[span_38](end_span)[span_39](start_span)[span_39](end_span).
+
+---
+
+## References
+1. UniProtKB P68871. https://www.uniprot.org/uniprot/P68871[span_40](start_span)[span_40](end_span)
+2. AlphaFold Protein Structure Database. https://alphafold.ebi.ac.uk/entry/P68871[span_41](start_span)[span_41](end_span)
+3. RCSB PDB, computed model AF_AFP68871F1. https://www.rcsb.org/structure/AF_AFP68871F1[span_42](start_span)[span_42](end_span)
+4. AlphaFold DB background. https://alphafold.ebi.ac.uk/[span_43](start_span)[span_43](end_span)
